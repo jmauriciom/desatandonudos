@@ -1,6 +1,6 @@
-import { GoPeople } from "react-icons/Go";
+import { GoPeople } from "react-icons/go";
 import { FaUserCheck } from "react-icons/fa";
-import { GoPasskeyFill } from "react-icons/Go";
+import { GoPasskeyFill } from "react-icons/go";
 import { BsLaptop, BsFillCartDashFill, BsPhone } from "react-icons/bs";
 import { CgWebsite } from "react-icons/cg";
 import { CiMobile1 } from "react-icons/ci";
