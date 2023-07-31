@@ -6,6 +6,7 @@ import { HiMenuAlt3 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 import Link from "next/link";
 import { CustomButton } from ".";
+import Image from "next/image";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -21,10 +22,14 @@ const Navbar = () => {
                     href='/'
                     className='flex font-medium items-center text-gray-900 mb-2 md:mb-0'
                 >
-                    <img
+
+                    <Image
                         src='/logo2.png'
                         alt='logo2'
+                        width={200}
+                        height={200} // También debes agregar la propiedad "height"
                         className='w-14 h-14 p-2 bg-white rounded-full'
+
                     />
                     <span className='ml-3 text-xl'>Desatando Nudos</span>
                 </Link>

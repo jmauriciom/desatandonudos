@@ -16,7 +16,7 @@ const About = () => {
 
                 <div className='flex flex-wrap -m-4 gap-10 md:gap-0 '>
                     {aboutData.map(({ id, title, text, icon }) => (
-                        <div className='p-4 md:w-1/3 '>
+                        <div key={id} className='p-4 md:w-1/3 '>
                             <div className='flex rounded-lg h-full bg-white p-6 flex-col shadow-lg '>
                                 <div className='flex items-center mb-3'>
                                     <div
