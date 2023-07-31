@@ -2,6 +2,7 @@
 import { useEffect } from "react";
 import emailjs from "emailjs-com";
 import { CustomButton, TextInput } from ".";
+import Image from "next/image";
 
 const Contact = () => {
 
@@ -36,7 +37,7 @@ const Contact = () => {
     return (
         <div>
             <div className='absolute inset-0 bg-gray-300' style={{ width: '100%', height: '50%', objectFit: 'cover' }}>
-                <img
+                <Image
                     src='/tarjeta.png' // Reemplaza con la URL real de tu imagen
                     alt='Mi imagen' // Agrega un texto alternativo para accesibilidad
                     width='100%'
